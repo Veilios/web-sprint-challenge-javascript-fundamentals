@@ -27,6 +27,8 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+The .forEach method executes a function given to it, on every single item inside an array. This can change the existing array, but it does not return anything or create a new array. The .map method also executes a function for every item inside an array, but it creates a completely new array with whatever was returned by the function, leaving the original function untouched.
+
 2. Explain the difference between a callback and a higher order function.
 
 3. What is closure?
