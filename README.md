@@ -49,6 +49,8 @@ Closure is when a nested function has access to the parent function, and makes i
 
 5. Why do we need super() in an extended class?
 
+the super() keyword is used at the begining of the constructor method inside an extended class, to call and inherit all the values and methods from the parent class.
+
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
 ## Instructions
