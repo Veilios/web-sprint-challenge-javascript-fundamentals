@@ -35,6 +35,8 @@ A callback function is a function that can be used as a argument within another 
 
 3. What is closure?
 
+Closure is when a nested function has access to the parent function, and makes its variables private so they can't be manipulated from the global scope.
+
 4. Describe the four rules of the 'this' keyword.
 
 5. Why do we need super() in an extended class?
