@@ -39,6 +39,14 @@ Closure is when a nested function has access to the parent function, and makes i
 
 4. Describe the four rules of the 'this' keyword.
 
+1- this used in a function in the global scope is given the value of the window object.
+
+2- when used inside an object, the this. is referring to the object it inside.
+
+3-When used inside a constructor function, this is referring to an instance created by the constructor.
+
+4- call() and apply() methods have the this keyword explicitly defiined.
+
 5. Why do we need super() in an extended class?
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
