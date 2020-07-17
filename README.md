@@ -31,6 +31,8 @@ The .forEach method executes a function given to it, on every single item inside
 
 2. Explain the difference between a callback and a higher order function.
 
+A callback function is a function that can be used as a argument within another function. The higher order function is a function that takes a callback as an argument.
+
 3. What is closure?
 
 4. Describe the four rules of the 'this' keyword.
