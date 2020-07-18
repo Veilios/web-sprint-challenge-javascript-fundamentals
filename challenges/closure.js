@@ -23,13 +23,10 @@ myFunction();
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
 
-const summation = (num) => {
-  let sum = 1;
-  let sum2 = () => {
-    for(i = 1; i < (num + 1); i++){
-      sum = sum + i;
-      return sum;
-    };
+function summation(num){
+  let total = 1;
+  return function(){
+    return total =+ total + (total + 1);
   };
 };
 
