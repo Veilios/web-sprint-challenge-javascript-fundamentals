@@ -17,7 +17,7 @@ function myFunction() {
 myFunction();
 
 // Explanation: 
-
+//Just like the myFunction() can reach one level higher into the global scope to grab the variable external, a nested function can also reach one level higher into its parent function, and grabbing the local variable internal
 
 /* Task 2: Counter */
 
