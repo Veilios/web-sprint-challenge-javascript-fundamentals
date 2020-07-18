@@ -72,7 +72,11 @@ let consume = (a, b, cb) => {
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
+const add = (a, b) => {return a + b};
 
+const multiply = (a, b) => {return a * b};
+
+const greeting = (first, last) => {return `Hello ${first} ${last}, nice to meet you!`};
 
 /* Step 3: Check your work by un-commenting the following calls to consume(): */
 // console.log(consume(2, 2, add)); // 4
